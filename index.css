@@ -1,0 +1,60 @@
+body {
+    margin:0px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    background-color: #1B244A;
+    width:575px;
+    height: 385px;
+}
+
+.board-title {
+    color: #EEEEEE;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+    text-align: center;
+    margin: 85px 0px 21px 0px;
+}
+
+.points-box {
+    height: 120px;
+    width: 150px;
+    background-color: #080001;
+    margin: 0px auto;
+    border-radius: 5px;
+}
+
+#home-score, #guest-score {
+    color: #F94F6D;
+    font-family: 'cursedtimer';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    text-align:center;
+    margin:0px;
+    padding: 5px;
+}
+
+.home-btns, .guest-btns {
+    display:flex;
+    justify-content: space-between;
+    margin-top:25px;
+}
+
+button{
+    font-family: 'cursedtimer';
+    font-size: 18px;
+    width:45px;
+    height:45px;
+    color: #9AABD8;
+    background-color: #1B244A;
+    border:#9AABD8 solid 2px;
+    border-radius: 5px;
+}
